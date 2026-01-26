@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridmi Jayawardhana - Business Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+
+    <canvas id="particleCanvas"></canvas>
+
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <div class="logo">
+                <a href="#home">
+                    <span class="logo-icon">RJ</span>
+                    <span class="logo-text">Ridmi Jayawardhana</span>
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+              
+                <h1>
+                    <span class="text-gradient">Transforming Business Needs into Meaningful Insights</span>
+                    <br>
+                </h1>
+                <p class="hero-subtitle">Passionate about bridging technology and business to drive innovation</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="cta pulse-btn">
+                        <i class="fas fa-paper-plane"></i> Get in Touch
+                    </a>
+                    <a href="#projects" class="cta secondary">
+                        <i class="fas fa-eye"></i> View Projects
+                    </a>
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="fade-up">
+                    <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="stat-number" data-target="4">0</div>
+                    <div class="stat-label">Years of Study</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon"><i class="fas fa-tools"></i></div>
+                    <div class="stat-number" data-target="12">0</div>
+                    <div class="stat-label">Core Skills</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Certifications</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="page">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-right">
+                About Me
+                <div class="title-underline"></div>
+            </h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="lead">
+                        My name is Ridmi Jayawardhana, a motivated computing undergraduate at the University of Sri Jayewardenepura with a strong passion for Business Analysis. I enjoy exploring how organizations operate, understanding complex business processes, and translating intricate requirements into clear, actionable insights.
+                    </p>
+                    <p>
+                        Through my academic journey, I have developed strong analytical thinking, attention to detail, and effective communication skills. I am driven by solving real-world business challenges and continuously learning to make meaningful contributions to projects and organizations.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Analytical Mindset</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Detail-Oriented</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Problem Solver</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Team Player</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="images/me.jpeg?w=1200&h=900&fit=crop" alt="Ridmi Jayawardhana">
+                        <div class="image-frame"></div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="subsection-title" data-aos="fade-up">
+                Academic Journey
+                <div class="title-underline-small"></div>
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                        <h4>BComp(Hons.) in Information Systems</h4>
+                        <p class="timeline-period">Current</p>
+                        <p>Currently pursuing a Bachelor of Computing (Hons.) in Information Systems at the University of Sri Jayewardenepura.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h4>Diploma in Information Technology</h4>
+                        <p class="timeline-period">Completed</p>
+                        <p>Successfully completed the Pearson Assured Diploma in Information Technology (DITEC) at ESOFT Metro Campus.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon"><i class="fas fa-language"></i></div>
+                        <h4>Diploma in English</h4>
+                        <p class="timeline-period">Completed</p>
+                        <p>Successfully completed the Pearson Assured Diploma in English (DIE) at ESOFT Metro Campus.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon"><i class="fas fa-calculator"></i></div>
+                        <h4>G.C.E Advanced Level</h4>
+                        <p class="timeline-period">2020</p>
+                        <p>Successfully completed Advanced Level examinations in the Mathematics stream with grades of 3 Bs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                        <h4>G.C.E Ordinary Level</h4>
+                        <p class="timeline-period">2017</p>
+                        <p>Successfully completed Ordinary Level examinations in English medium with 9 As.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="career-goals" data-aos="zoom-in">
+                <div class="goal-content">
+                    <h2 class="subsection-title">Looking Ahead</h2>
+                    <p>
+                        My career goal is to become a professional Business Analyst who contributes to improving systems, optimising business processes, and enabling data-informed decision-making. I am eager to gain industry exposure, apply my academic knowledge in real-world environments, and continue developing both my technical and business-oriented skills.
+                    </p>
+                    <div class="goal-badges">
+                        <span class="goal-badge">Open for Internships</span>
+                        <span class="goal-badge">Entry-Level Roles</span>
+                    </div>
+                    <div class="role-tags">
+                        <span class="role-tag">Business Analyst</span>
+                        <span class="role-tag">IT Analyst</span>
+                        <span class="role-tag">Documentation Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container page">
+        <h2 class="subsection-title" data-aos="fade-up">
+            What I Bring
+            <div class="title-underline-small"></div>
+        </h2>
+
+        <div class="testimonial-grid">
+            <div class="testimonial-card" data-aos="flip-left">
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <h3>Analytical Strength</h3>
+                <p>Strong analytical mindset with excellent documentation skills and structured thinking in academic and project work.</p>
+                <div class="testimonial-footer">
+                    <div class="testimonial-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div>
+                        <h4 class="testimonial-name">Academic Supervisor</h4>
+                        <p class="testimonial-role">University Project Guidance</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card" data-aos="flip-left" data-aos-delay="100">
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <h3>Team Collaboration</h3>
+                <p>Proactive and responsible team member who communicates ideas clearly and contributes effectively to group success.</p>
+                <div class="testimonial-footer">
+                    <div class="testimonial-avatar">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div>
+                        <h4 class="testimonial-name">Project Team Member</h4>
+                        <p class="testimonial-role">Group Project Collaboration</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card" data-aos="flip-left" data-aos-delay="200">
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <h3>Problem Solving</h3>
+                <p>Ability to identify root causes and propose practical solutions using structured thinking and research.</p>
+                <div class="testimonial-footer">
+                    <div class="testimonial-avatar">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div>
+                        <h4 class="testimonial-name">Academic Mentor</h4>
+                        <p class="testimonial-role">Course Support & Guidance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container page">
+        <h2 class="section-title" data-aos="fade-up">
+            Core Focus and Skills
+            <div class="title-underline"></div>
+        </h2>
+        <p class="section-intro" data-aos="fade-up">
+            These are the areas I focus on and continuously work to improve. They help me become more effective in understanding business processes, analysing information, solving problems, and contributing meaningfully to projects and real-world challenges.
+        </p>
+        
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="zoom-in">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-search"></i></div>
+                </div>
+                <h3>Requirement Analysis</h3>
+                <p>Identifying, analysing, and documenting business requirements clearly and effectively.</p>
+               
+                 
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="50">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                </div>
+                <h3>Stakeholder Analysis</h3>
+                <p>Understanding stakeholder needs, expectations, and communication requirements.</p>
+               
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                </div>
+                <h3>Process Analysis</h3>
+                <p>Studying existing workflows and identifying areas for improvement.</p>
+               
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="150">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-file-alt"></i></div>
+                </div>
+                <h3>Documentation Skills</h3>
+                <p>Preparing structured documents such as SRS, BRD, and academic reports.</p>
+               
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                </div>
+                <h3>Analytical Thinking</h3>
+                <p>Breaking down complex problems into logical, manageable insights.</p>
+              
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-graduation-cap"></i></div>
+                </div>
+                <h3>Continuous Learning</h3>
+                <p>Actively improving knowledge of BA tools, techniques, and industry practices.</p>
+               
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                </div>
+                <h3>Data Interpretation</h3>
+                <p>Interpreting reports and datasets to identify trends and insights.</p>
+              
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="350">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-puzzle-piece"></i></div>
+                </div>
+                <h3>Problem Solving</h3>
+                <p>Applying structured approaches to analyse and solve business challenges.</p>
+               
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                </div>
+                <h3>Communication Skills</h3>
+                <p>Presenting analysis findings clearly through reports and presentations.</p>
+               
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="450">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-briefcase"></i></div>
+                </div>
+                <h3>Business Acumen</h3>
+                <p>Understanding organisational goals, operations, and decision-making processes.</p>
+              
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                </div>
+                <h3>Business Process Modeling</h3>
+                <p>Visualising workflows using structured models.</p>
+               
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="550">
+                <div class="skill-icon-wrapper">
+                    <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                </div>
+                <h3>User Stories & Use Cases</h3>
+                <p>Defining functional needs from user perspectives.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container page">
+        <h2 class="section-title" data-aos="fade-up">
+            My Projects
+            <div class="title-underline"></div>
+        </h2>
+        <p class="section-intro" data-aos="fade-up">
+            Here are some of the projects I've worked on that demonstrate my skills in business analysis, web development, and project management.
+        </p>
+        
+        <div class="projects-container">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-header">
+                    <h3>Personal Portfolio</h3>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-images">
+                    
+                    <img src="images/500.png" alt="Portfolio 2" class="project-img active">
+                    <img src="images/500 (2).png" alt="Portfolio 3" class="project-img">
+                    <img src="images/500 (3).png" alt="Portfolio 4" class="project-img">
+                    <img src="images/500 (4).png" alt="Portfolio 5" class="project-img">
+                    <img src="images/500 (5).png" alt="Portfolio 6" class="project-img">
+                    <img src="images/500 (6).png" alt="Portfolio 7" class="project-img">
+                    <img src="images/500 (7).png" alt="Portfolio 8" class="project-img">
+                    <img src="images/500 (8).png" alt="Portfolio 9" class="project-img">
+                    <img src="images/500 (9).png" alt="Portfolio 10" class="project-img">
+                    <img src="images/500 (10).png" alt="Portfolio 4" class="project-img">
+
+                </div>
+                <div class="project-controls">
+                    <button class="project-nav prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="project-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="project-nav next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="project-content">
+                    <p>A personal portfolio website built to showcase my projects and skills. Demonstrates my ability to design responsive layouts and structure content effectively using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+            
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-header">
+                    <h3>AI-Based Movie Recommendation System</h3>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">AI/ML</span>
+                        <span class="tag">Data Science</span>
+                    </div>
+                </div>
+                <div class="project-images">
+                    <img src="images/6.png" alt="Movie 1" class="project-img active">
+                    <img src="images/5.png" alt="Movie 2" class="project-img">
+                    <img src="images/9.png" alt="Movie 3" class="project-img">
+                </div>
+                <div class="project-controls">
+                    <button class="project-nav prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="project-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="project-nav next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="project-content">
+                    <p>An AI-based movie recommendation system developed using content-driven techniques to suggest movies based on user preferences, enhancing the overall entertainment experience.</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-header">
+                    <h3>RJ Endless Runner Game</h3>
+                    <div class="project-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Game Dev</span>
+                    </div>
+                </div>
+                <div class="project-images">
+                    <img src="images/200.png" alt="Game 1" class="project-img active">
+                    <img src="images/201.png" alt="Game 2" class="project-img">
+                    <img src="images/202.png" alt="Game 3" class="project-img">
+                    <img src="images/203.png" alt="Game 4" class="project-img">
+                    <img src="images/204.png" alt="Game 5" class="project-img">
+                    <img src="images/205.png" alt="Game 6" class="project-img">
+                </div>
+                <div class="project-controls">
+                    <button class="project-nav prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="project-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="project-nav next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="project-content">
+                    <p>An endless runner game developed using Unity, featuring increasing difficulty, smooth controls, animations, and score tracking for an engaging gameplay experience.</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-header">
+                    <h3>Cafe Sienna – Web Development</h3>
+                    <div class="project-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                </div>
+                <div class="project-images">
+                    <img src="images/100.png" alt="Cafe 1" class="project-img active">
+                    <img src="images/101.png" alt="Cafe 2" class="project-img">
+                    <img src="images/102.png" alt="Cafe 3" class="project-img">
+                    <img src="images/103.png" alt="Cafe 4" class="project-img">
+                    <img src="images/104.png" alt="Cafe 5" class="project-img">
+                    <img src="images/105.png" alt="Cafe 6" class="project-img">
+                    <img src="images/106.png" alt="Cafe 7" class="project-img">
+                    <img src="images/107.png" alt="Cafe 8" class="project-img">
+                    <img src="images/108.png" alt="Cafe 9" class="project-img">
+                    <img src="images/109.png" alt="Cafe 10" class="project-img">
+                    <img src="images/110.png" alt="Cafe 11" class="project-img">
+                    <img src="images/111.png" alt="Cafe 12" class="project-img">
+                    <img src="images/112.png" alt="Cafe 13" class="project-img">
+                    <img src="images/113.png" alt="Cafe 14" class="project-img">
+                    <img src="images/114.png" alt="Cafe 15" class="project-img">
+                </div>
+                <div class="project-controls">
+                    <button class="project-nav prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="project-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="project-nav next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="project-content">
+                    <p>A responsive cafe website developed as a group project using HTML, CSS, and JavaScript, focusing on modern UI design, accessibility, and usability across devices.</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-header">
+                    <h3>PrimeHeal – Health Support System</h3>
+                    <div class="project-tags">
+                        <span class="tag">Healthcare</span>
+                        <span class="tag">Project Management</span>
+                        <span class="tag">In Development</span>
+                    </div>
+                </div>
+                <div class="project-images">
+                    <img src="images/f1.jpeg" alt="PrimeHeal 1" class="project-img active">
+                    <img src="images/f2.jpeg" alt="PrimeHeal 2" class="project-img">
+                    <img src="images/f3.jpeg" alt="PrimeHeal 3" class="project-img">
+                    <img src="images/f4.jpeg" alt="PrimeHeal 4" class="project-img">
+                    <img src="images/f5.jpeg" alt="PrimeHeal 5" class="project-img">
+                </div>
+                <div class="project-controls">
+                    <button class="project-nav prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="project-dots">
+                        <span class="dot active"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+<button class="project-nav next"><i class="fas fa-chevron-right"></i></button>
+</div>
+<div class="project-content">
+<p>A health support system currently under development. Serving as the Project Manager, overseeing planning, coordination, and progress to deliver a reliable and user-friendly healthcare platform.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="resume" class="container page">
+    <h2 class="section-title" data-aos="fade-up">
+        My Resume
+        <div class="title-underline"></div>
+    </h2>
+    <p class="section-intro" data-aos="fade-up">
+        Here you can view my professional resume or download it for your reference. It includes my education, skills, projects, and experiences as a Business Analyst aspirant.
+    </p>
+    <div class="resume-showcase" data-aos="zoom-in">
+        <div class="resume-preview">
+            <i class="fas fa-file-pdf"></i>
+            <h3>Professional Resume</h3>
+            <p>Comprehensive overview of my qualifications and experience</p>
+        </div>
+        <div class="resume-actions">
+            <a href="files/Ridmi Jayawardhana CV.pdf" download class="cta pulse-btn">
+                <i class="fas fa-download"></i> Download My Resume
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="container page">
+    <h2 class="section-title" data-aos="fade-up">
+        Get in Touch
+        <div class="title-underline"></div>
+    </h2>
+    <p class="section-intro" data-aos="fade-up">
+        If you have a project idea, collaboration proposal, or just want to connect, I'd love to hear from you.
+    </p>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-card" data-aos="fade-right">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email</h3>
+                <p>jayawardhanaridmi0125@gmail.com</p>
+                <a href="mailto:jayawardhanaridmi0125@gmail.com" class="contact-link">
+                    Send Email <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="contact-card" data-aos="fade-right" data-aos-delay="100">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <h3>Phone</h3>
+                <p>+94 71 925 2360</p>
+                <a href="tel:+94719252360" class="contact-link">
+                    Call Now <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="contact-card" data-aos="fade-right" data-aos-delay="200">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Location</h3>
+                <p>218/A, Praja Mawatha, Pedipola, Udugampola</p>
+                <a href="https://maps.google.com" target="_blank" class="contact-link">
+                    View Map <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="contact-form" data-aos="fade-left">
+            <h3>Send a Message</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile"><i class="fas fa-phone"></i> Mobile Number</label>
+                    <input type="tel" id="mobile" name="mobile" placeholder="Your mobile number" required>
+                </div>
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment"></i> Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="cta pulse-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-top">
+            <div class="footer-about">
+                <h3>Ridmi Jayawardhana</h3>
+                <p>Business Analyst | Computing Undergraduate | Problem Solver</p>
+            </div>
+            <div class="footer-links-section">
+                <h4>Quick Links</h4>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+            <p>© 2025 Ridmi Jayawardhana • Student Portfolio</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1C2Xt9mBVi/?mibextid=wwXIfr" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://github.com/RidmiJayawardhana" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ridmi-jayawardhana-6a9579274" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/rid_mee?igsh=dmtmMnlhYzNhNG54&utm_source=qr" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <a href="#home" id="backToTop">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<a href="https://wa.me/94719252360" target="_blank" class="whatsapp-button" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with me!</span>
+</a>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
