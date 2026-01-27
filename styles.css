@@ -420,7 +420,6 @@ body {
   100% { opacity: 0; transform: rotate(45deg) translate(10px, 10px); }
 }
 
-/* Stats Section */
 .stats-section {
   margin: -60px auto 60px;
   position: relative;
@@ -1695,4 +1694,5 @@ transition: opacity 0.8s ease, transform 0.8s ease;
 }
 [data-aos].aos-animate {
 opacity: 1;
+
 }
